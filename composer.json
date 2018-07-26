@@ -2,7 +2,7 @@
     "name": "elsayednofal/froala-editor",
     "description": "Easy to use Froala editor with laravel",
     "type": "git",
-    "license": "NIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Elsayed Nofal",
