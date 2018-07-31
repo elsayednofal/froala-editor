@@ -1,4 +1,4 @@
-<textarea id="{{$id}}"  {{$required}}>{!! $content !!}</textarea>
+<textarea id="{{$id}}"  name="{{$name}}" {{$required}}>{!! $content !!}</textarea>
 <script>
 $('#{{$id}}').froalaEditor({
         imageUploadURL: '{{ config('froala.upload_url') }}',
