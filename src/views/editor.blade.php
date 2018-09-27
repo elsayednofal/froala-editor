@@ -2,6 +2,9 @@
 <script>
 $('#{{$id}}').froalaEditor({
         imageUploadURL: '{{ config('froala.upload_url') }}',
+        requestHeaders: {
+            'X-CSRF-TOKEN': '{{ csrf_token() }}'
+        },
         toolbarSticky: true,
         
 
